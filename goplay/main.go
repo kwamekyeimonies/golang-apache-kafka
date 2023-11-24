@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	topic := "Stream test"
+	topic := "teaCodeTopix"
 	p, err := kafka.NewProducer(&kafka.ConfigMap{
 		"bootstrap.servers": "localhost:9092",
 		"client.id":         "hello_something",
